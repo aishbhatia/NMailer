@@ -1,0 +1,15 @@
+{
+  "name": "nmailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^122.0.0",
+    "nodemailer": "^6.9.3"
+  }
+}
