@@ -100,7 +100,7 @@ const REFRESH_TOKEN = config.refreshToken;
           const inReplyTo = inReplyToHeader ? inReplyToHeader.value : '';
 
           const mailOptions = {
-              from: 'aishbirs@gmail.com',
+              from: config.email,
               to: from,
               subject: 'Re: ' + subject,
               text: 'Thank you for sending me an email.',
